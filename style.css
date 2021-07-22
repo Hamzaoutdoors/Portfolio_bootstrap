@@ -1,0 +1,54 @@
+.hero {
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+}
+.container-fluid {
+  background-image: url('./images/header-shapes-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-title{
+  width: 100%;
+}
+
+.card-text {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.connect {
+  text-decoration: none;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.social-icons {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-color: #fff;
+    border-bottom-left-radius: 50px;
+  }
+  .container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./images/Header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-title{
+    width: 30%;
+  }
+  
+  .card-text {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+}
