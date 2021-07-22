@@ -1,6 +1,7 @@
 .hero {
   background-color: #fff;
   border-bottom-left-radius: 50px;
+  min-height: 80vh;
 }
 .container-fluid {
   background-image: url('./images/header-shapes-mobile.svg');
@@ -33,10 +34,10 @@
   .hero {
     background-color: #fff;
     border-bottom-left-radius: 50px;
-  }
-  .container-fluid {
     width: 100%;
     min-height: 100vh;
+  }
+  .container-fluid {
     background-image: url("./images/Header-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
