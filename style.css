@@ -9,7 +9,8 @@ h5 {
   font-weight: bold;
 }
 
-.hero, .about-section {
+.hero,
+.about-section {
   background-color: #fff;
 }
 
@@ -19,11 +20,10 @@ h5 {
 }
 
 .hero-section {
-  background-image: url('./images/header-shapes-mobile.svg');
+  background-image: url("./images/header-shapes-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 .card-text {
   width: 100%;
@@ -44,11 +44,11 @@ h5 {
 
 .card {
   border-radius: 24px;
-  max-width: 1156px; 
+  max-width: 1156px;
   min-height: 450px;
 }
 
-.about-section{
+.about-section {
   min-width: 100%;
 }
 
@@ -81,11 +81,11 @@ textarea {
     background-size: cover;
     background-position: center;
   }
-  
-  .card-body h5{
+
+  .card-body h5 {
     width: 40%;
   }
-  
+
   .card-text {
     width: 70%;
     font-size: 1.2rem;
