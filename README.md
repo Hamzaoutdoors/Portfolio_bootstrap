@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bootstrap 5.0 Portfolio
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
