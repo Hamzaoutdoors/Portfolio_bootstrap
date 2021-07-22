@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+
+h5 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.hero, .about-section {
+  background-color: #fff;
+}
+
+.hero {
+  border-bottom-left-radius: 50px;
+  min-height: 80vh;
+}
+
+.hero-section {
+  background-image: url('./images/header-shapes-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.card-text {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.connect {
+  text-decoration: none;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.social-icons {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.card {
+  border-radius: 24px;
+  max-width: 1156px; 
+  min-height: 450px;
+}
+
+.about-section{
+  min-width: 100%;
+}
+
+.contact-section {
+  background-color: #6070ff;
+  background-image: url("./images/contact\ form\ shapes-mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-top: 30vh;
+  min-width: 100%;
+  min-height: 746px;
+  border-radius: 85px 0 0 0;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+@media screen and (min-width: 992px) {
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .container-fluid {
+    background-image: url("./images/Header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-body h5{
+    width: 40%;
+  }
+  
+  .card-text {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    max-width: 50%;
+    align-items: center;
+  }
+}
